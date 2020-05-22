@@ -4,7 +4,7 @@ The following main functionalities are implemented:
 
 Creating the basic enemy character
 
-The enemy moves on a set path, following a series of target GameObjects in a circular fashion. We rotate the character towards the current target in the path in order to ensure that the character walks towards it.
+The enemy moves on a set path, following a series of target GameObjects in a circular fashion. The character is rotated towards the current target in the path in order to ensure that the character walks towards it.
 
 
 Detecting the player
@@ -29,4 +29,4 @@ There is an enemy character in each room . Each enemy character was assigned his
 
 Ammo supply
 
-We put an ammo crate in the fourth room. When the player reaches it, the bullets will be refilled.
+There is an ammo crate in the fourth room. When the player reaches it, the bullets will be refilled.
